@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.services {
+  background-image: url("https://www.shutterstock.com/image-illustration/electric-cord-electricity-sparks-symbol-260nw-92160616.jpg");
+  background-size: cover;
+  display:flex;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 0 0;
+  }
+  
+  section h2 {
+    font-size: 2rem;
+  }
+  
+  section > p {
+    text-align: center;
+  }
+  
+  section .cards {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin-top: 50px;
+    padding: 0 10px;
+    justify-content: space-between;
+  }
+
+
+  section .cards .card {
+    background: #fff;
+    padding: 40px 15px;
+    list-style: none;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04);
+    margin-bottom: 40px;
+    width: calc(100% / 3 - 30px);
+    text-align: center;
+    display:flex;
+  }
+
+  .services .card img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 20px;
+    border-radius: 100%;
+    object-fit: cover;
+
+  }
+
+  .bookBtn{
+    padding:8px;
+    background-color: rgb(81, 90, 88);
+    border-radius: 25px;
+  }
+
+  .bookBtn:hover{
+    background-color: rgb(17, 19, 18);
+  }

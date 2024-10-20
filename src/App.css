@@ -1,0 +1,48 @@
+.app-container {
+  display: flex;
+}
+
+.content {
+  width: 100%;
+}
+
+.sidebar {
+  min-height: 800px;
+}
+
+.post-card {
+  margin: 20px 50px;
+}
+
+.hashtag {
+  margin: 0px 3px;
+}
+
+.reactions {
+  margin: 15px 0 0 0;
+}
+
+.create-post {
+  width: 80%;
+  margin-top: 50px;
+  margin-left: 10%;
+}
+webkit-scrollbar-track {
+  /* -moz-animation: inset 0 0 6px rgba(0, 0, 0, 0.3); */
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+webkit-scrollbar {
+  width: 7px;
+  background-color: #F5F5F5;
+}
+webkit-scrollbar-thumb {
+  border-radius: 10px;
+  /* -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3); */
+  background-color: #cccccc;
+} 
+.hlooo{
+  background-image: url("src/assets/img/PHOTO-2024-10-20-12-00-20.jpg");
+ 
+  background-size: cover;
+}

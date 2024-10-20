@@ -1,0 +1,6 @@
+.wavyBox {
+  width: 300px;
+  height: 150px;
+  background-color: lightblue;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+}
